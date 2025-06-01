@@ -18,7 +18,6 @@
 **Backend:**
 - Node.js
 - Express.js
-- MongoDB (with Mongoose)
 
 **Email Integration:**
 - Nodemailer
@@ -37,11 +36,11 @@ cd sgfitness
 ```bash
 # Backend
 cd backend
-npm install
+npm init
 
 # Frontend
 cd ../frontend
-npm install
+npm run dev
 ```
 
 3. **Set up environment variables**
@@ -49,8 +48,7 @@ npm install
 Create a `.env` file inside the `/backend` folder:
 
 ```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
+PORT=4000
 EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_email_password_or_app_password
 ```
@@ -59,13 +57,13 @@ EMAIL_PASS=your_email_password_or_app_password
 
 ```bash
 # In /backend
-npm run server
+npm run dev
 
 # In /frontend
-npm start
+npm run dev
 ```
 
-The frontend will be running on `http://localhost:3000` and backend on `http://localhost:5000`.
+The frontend will be running on `http://localhost:5173` and backend on `http://localhost:4000`.
 
 ## 🖼️ Pages Overview
 
@@ -73,7 +71,6 @@ The frontend will be running on `http://localhost:3000` and backend on `http://l
 - **BMI Calculator** – Input height and weight to calculate BMI
 - **Plans Page** – List of available membership plans with pricing
 - **Contact Page** – User fills a form, and admin receives an email
-- **Thank You Page** – Shown after successful contact form submission
 
 ## 📧 Email Functionality
 
@@ -117,8 +114,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## 📬 Contact
 
 For any queries or collaborations:  
-📧 your.email@example.com  
-🌐 [GitHub Profile](https://github.com/yourusername)
+📧 suyashs.g2004@gmail.com
 
 ---
 
