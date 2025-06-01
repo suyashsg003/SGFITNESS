@@ -71,6 +71,7 @@ The frontend will be running on `http://localhost:5173` and backend on `http://l
 - **BMI Calculator** – Input height and weight to calculate BMI
 - **Plans Page** – List of available membership plans with pricing
 - **Contact Page** – User fills a form, and admin receives an email
+- **Gallery Page** - Image gallery for good view
 
 ## 📧 Email Functionality
 
@@ -105,7 +106,6 @@ sgfitness/
 
 - Admin dashboard for managing user queries and memberships
 - Online payment gateway for joining plans
-- Image gallery or virtual gym tour
 
 ## 🙋‍♂️ Contributing
 
